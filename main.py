@@ -13,12 +13,12 @@ for i in range(2,len(list)):
      print('list [',i,']=',list[i])
      for j in range(1, len(list)):
           if list[i] % list[j] != 0:
-               print('list [',i,']=', ' = prime')
+               print('number', list[i],  '= prime')
                break
 
 
           else:
-               print('list [',i,']=', ' =not_prime')
+               print('number', list[i],  '= not_prime')
                break
 
 
